@@ -33,4 +33,9 @@ public:
 
 	node* add(node* current_node, int value);
 	void add(int value);
+	node* min_value(node*);
+	node* delete_node(node*, int&);
+	void delete_node(int);
+	void postorder(node*, int);
+	void print_tree();
 };
